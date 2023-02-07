@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Return Invidious Dislikes",
+    "description": "An extension to return Invidious Dislikes for Chrome.",
+    "version": "0.1",
+    "icons": {
+        "16": "logo/logo-16.png",
+        "32": "logo/logo-32.png",
+        "128": "logo/logo-128.png"
+    },
+    "action": {
+        "default_title": "Return Invidious Dislikes",
+        "default_popup": "popup/popup.html"
+    },
+    "host_permissions": [
+        "*://*/*"
+    ],
+    "content_scripts": [{
+        "js": ["foreground.js"],
+        "matches": ["*://*/watch?v=*"]
+    }]
+}
