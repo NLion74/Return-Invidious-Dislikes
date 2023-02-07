@@ -1,2 +1,2 @@
 # Return-Invidious-Dislikes
-An Extension to dislikes and rating for invidious
+An Extension to return dislikes and rating for invidious
